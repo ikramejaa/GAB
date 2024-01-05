@@ -1,0 +1,40 @@
+.page{
+    background-image: url("../../assets/verified-image.jpg");
+    background-size:cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.container{
+    width: fit-content;
+    padding: 3.5rem 6.75rem;
+    gap: 3rem;
+    border-radius: 1.25rem;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0px 4px 7px 0px rgba(255, 255, 255, 0.50);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: inherit;
+    font-style: italic;
+    font-size: x-large;
+}
+
+h3{
+    font-family: inherit;
+    font-style: bold;
+    font-size: large;
+}
+
+.date-container {
+    display: flex;
+    align-items: baseline; /* Aligner les éléments en fonction de leur base (ligne de base) */
+}
+  

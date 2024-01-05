@@ -1,0 +1,79 @@
+.page{
+    background-image: url("../../assets/login-image.jpg");
+    background-size:cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.login-card{
+    width: fit-content;
+    padding: 3.5rem 6.75rem;
+    gap: 3rem;
+    border-radius: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    border-color: #000;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 17.75rem;
+    height: 16.75rem;
+}
+
+.input-div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    /* display: block; */
+    width: 22.375rem;
+    /* height: 3.125rem; */
+    padding:1rem;
+    border-radius: 0.625rem;
+    border: none;
+    background: #FFF;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+
+input:hover{
+    color: #000;  
+}
+
+button{
+    /* width: 8.3125rem;
+    height: 3.875rem; */
+    padding : 1.1rem 2rem;
+    border-radius: 0.625rem;
+    background: #FFF;
+    color: #008995;
+    font-family: Inter;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+button:hover{
+    border-radius: 0.625rem;
+    border: 3px solid #FFF;
+    background: #008995;
+    color: #FFF;
+}
